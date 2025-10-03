@@ -61,3 +61,22 @@ This project is licensed under the MIT License. See the LICENSE
 Contact
 
 For questions, feedback, or collaboration, please contact Kahsay Kiross at kahsaykirossmtc@gmail.com
+flutter-6g-lab/
+├─ pubspec.yaml
+├─ README.md
+├─ lib/
+│  ├─ main.dart
+│  ├─ models/
+│  │  └─ proposal.dart
+│  ├─ services/
+│  │  └─ backend_service.dart
+│  ├─ pages/
+│  │  ├─ home_page.dart
+│  │  └─ proposal_page.dart
+│  ├─ widgets/
+│  │  └─ array_pattern_widget.dart
+│  └─ utils/
+│     └─ dsp_math.dart
+└─ assets/
+   └─ proposal.json   (optional cached proposal content)
+
