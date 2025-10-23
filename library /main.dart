@@ -1,6 +1,5 @@
 // lib/main.dart
 // App entry point and main navigation shell.
-
 import 'package:flutter/material.dart';
 import 'models/proposal.dart';
 import 'pages/home_page.dart';
@@ -8,15 +7,12 @@ import 'pages/hybrid_beamforming_page.dart';
 import 'pages/ris_tuning_page.dart';
 import 'pages/calibration_page.dart';
 import 'pages/experiments_page.dart';
-
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   // Using sample proposal loaded from models
   final Proposal proposal = Proposal.sample();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
